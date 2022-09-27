@@ -20,7 +20,7 @@ namespace BankApplication
                 // Check if the Account number does not already exist
             }
         }
-        public Account(int acBalance, string name, string sSN)
+        public Account(int acBalance)
         {
             AcBalance = acBalance;
             AcNum = acNum;

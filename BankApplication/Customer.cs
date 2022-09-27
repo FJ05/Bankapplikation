@@ -8,6 +8,7 @@ namespace BankApplication
 {
     class Customer
     {
+        public List<Account> bankAccount;
         private int customerID;
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -27,12 +28,13 @@ namespace BankApplication
                 // Check if the Account number does not already exist
             }
         }
-        public List<Account> bankAccount = new List<Account>();
         public Customer(string firstName, string lastName, string sSN)
         {
             FirstName = firstName;
             LastName = lastName;
             SSN = sSN;
-            CustomerID = customerID;        }
+            CustomerID = customerID;        
+            bankAccount = new List<Account>();
+        }
     }
 }

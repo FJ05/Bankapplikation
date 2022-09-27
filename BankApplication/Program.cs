@@ -1,3 +1,2 @@
-﻿using BankAccount;
+﻿using BankApplication;
 
-Account account = new Account(100, "Filip Jansson", "20051116xxxx");
