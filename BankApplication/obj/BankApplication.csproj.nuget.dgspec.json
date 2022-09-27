@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication.csproj": {}
+    "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication\\BankApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication.csproj": {
+    "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication\\BankApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication.csproj",
+        "projectUniqueName": "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication\\BankApplication.csproj",
         "projectName": "BankApplication",
-        "projectPath": "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication.csproj",
+        "projectPath": "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication\\BankApplication.csproj",
         "packagesPath": "C:\\Users\\filip.jansson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip.jansson\\github\\Bankapplikation\\obj\\",
+        "outputPath": "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
