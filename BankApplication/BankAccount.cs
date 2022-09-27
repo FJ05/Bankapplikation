@@ -1,5 +1,6 @@
 namespace BankAccount
 {
+    // Is used to create a account
     class Account   //Class
     {
         private int customerID;
