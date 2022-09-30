@@ -10,9 +10,10 @@ namespace BankApplication
     {
         public List<Account> bankAccount;
         private int customerID;
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string SSN { get; set; }
+        public string? FirstName { get; set; }
+        public string? LastName { get; set; }
+        public string? SSN { get; set; }
+        public string? Password { get; set; }
         public int CustomerID
         {
             get { return CustomerID; }
@@ -28,13 +29,14 @@ namespace BankApplication
                 // Check if the Account number does not already exist
             }
         }
-        public Customer(string firstName, string lastName, string sSN)
+        public Customer(string? firstName, string? lastName, string? sSN, string? password)
         {
             FirstName = firstName;
             LastName = lastName;
             SSN = sSN;
             CustomerID = customerID;        
             bankAccount = new List<Account>();
+            Password = password;
         }
     }
 }
