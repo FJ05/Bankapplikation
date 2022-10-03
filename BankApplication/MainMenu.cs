@@ -34,7 +34,7 @@ namespace BankApplication
             if (choise == 1)
             {
                 // Create a new Account
-
+                AccCreation ac = new();
             }
             else if (choise == 2)
             {

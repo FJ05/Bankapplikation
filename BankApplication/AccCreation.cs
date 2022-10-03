@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
+using BankApplication;
 
 namespace BankApplication
 {
@@ -56,11 +57,13 @@ namespace BankApplication
 
             Console.WriteLine(firstName + " " + lastName);
             bool ValidSSN = false;
+            string? sSN;
             do
             {
-                string? sSN = Console.ReadLine();
+                sSN = Console.ReadLine();
                 Console.WriteLine("Enter your social security number; ex: YYMMDDXXXX or YYYYMMDDXXXX");
                 List<char> SSN = new List<char>();
+                int lenght = 0;
                 foreach(char number in SSN)
                 {
                     switch (number)
@@ -80,13 +83,30 @@ namespace BankApplication
                             break;
                         default:
                             Console.WriteLine("Syntax error");
+                            ValidSSN = false;
                             break;
 
                     }
                 }
+                if (lenght > 12)
+                {
+                    Console.WriteLine("Syntax error");
+                    ValidSSN = false;
+                }
+                else if (lenght < 10)
+                {
+                    Console.WriteLine("Syntax error");
+                    ValidSSN = false;
+                }
+                else if (lenght == 11)
+                {
+                    Console.WriteLine("Syntax error");
+                    ValidSSN = false;
+                }
+
             }
             while(ValidSSN);
-            
+
             Console.WriteLine("enter a password");
             string? password = Console.ReadLine();
             Customer cust = new Customer(firstName, lastName, sSN, password);
