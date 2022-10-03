@@ -74,10 +74,12 @@ namespace BankApplication
                         case '7':
                         case '8':
                         case '9':
+                            lenght++;
+                            ValidSSN = true;
                             // stuff i am stuff
                             break;
                         default:
-
+                            Console.WriteLine("Syntax error");
                             break;
 
                     }
@@ -85,9 +87,12 @@ namespace BankApplication
             }
             while(ValidSSN);
             
-
-            //string? password = Console.ReadLine();
-            // Customer cust = new Customer(firstName, lastName, sSN, password);
+            Console.WriteLine("enter a password");
+            string? password = Console.ReadLine();
+            Customer cust = new Customer(firstName, lastName, sSN, password);
+            // makes the defult account
+            Account account = new(0);
+            cust.bankAccount.Add(account);
         }
 
     }
