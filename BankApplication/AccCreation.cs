@@ -5,7 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
+using System.Xml.Linq;
 using BankApplication;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace BankApplication
 {
@@ -55,19 +58,19 @@ namespace BankApplication
             }
             lastName = new string(newLastname.ToArray());
 
-            Console.WriteLine(firstName + " " + lastName);
             bool ValidSSN = false;
             string? sSN;
             do
             {
+                Console.WriteLine("Enter your social security number; ex: YYMMDDXXXX");
                 sSN = Console.ReadLine();
-                Console.WriteLine("Enter your social security number; ex: YYMMDDXXXX or YYYYMMDDXXXX");
                 List<char> SSN = new List<char>();
                 int lenght = 0;
                 foreach(char number in SSN)
                 {
                     switch (number)
                     {
+                        case '0':
                         case '1':
                         case '2':
                         case '3':
@@ -82,25 +85,25 @@ namespace BankApplication
                             // stuff i am stuff
                             break;
                         default:
-                            Console.WriteLine("Syntax error");
+                            Console.WriteLine("Syntax error: input must contain only numbers");
                             ValidSSN = false;
                             break;
 
                     }
                 }
-                if (lenght > 12)
+                if (lenght > 10)
                 {
-                    Console.WriteLine("Syntax error");
+                    Console.WriteLine("Syntax error: SSN must be written in this format: YYMMDDXXXX");
                     ValidSSN = false;
                 }
                 else if (lenght < 10)
                 {
-                    Console.WriteLine("Syntax error");
+                    Console.WriteLine("Syntax error SSN must be written in this format: YYMMDDXXXX");
                     ValidSSN = false;
                 }
                 else if (lenght == 11)
                 {
-                    Console.WriteLine("Syntax error");
+                    Console.WriteLine("Syntax error SSN must be written in this format: YYMMDDXXXX");
                     ValidSSN = false;
                 }
 
@@ -113,6 +116,31 @@ namespace BankApplication
             // makes the defult account
             Account account = new(0);
             cust.bankAccount.Add(account);
+
+            // saves the data
+            string fileName = "BankDataBase.json";
+            string path = Path.Combine(Environment.CurrentDirectory, @"Properties\", fileName);
+            List<Customer> custs = new();
+            custs.Add(cust);
+
+            // takes existing data and rewrites it
+            // goal is to collect all data from BankData and then create a new list with that data and the newly added data, clear the entire file and rewrite it.
+            string json = File.ReadAllText(path);
+            var accList = JsonConvert.DeserializeObject<List<Customer>>(json);
+
+            foreach(var acc in accList)
+            {
+                Customer custom = new(acc.FirstName, acc.LastName, acc.SSN, acc.Password);
+                custs.Add(custom);
+            }
+
+            File.WriteAllText(path, string.Empty);
+            string output = JsonConvert.SerializeObject(custs.ToArray(), Formatting.Indented);
+            using (StreamWriter sw = File.AppendText(path))
+            {
+                sw.WriteLine(output);
+            }
+            // https://www.newtonsoft.com/json/help/html/SerializingJSON.htm document for newtonsoft
         }
 
     }

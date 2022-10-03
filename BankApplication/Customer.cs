@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using BankApplication;
@@ -8,6 +9,7 @@ namespace BankApplication
 {
     class Customer
     {
+        Random RNG = new Random();
         public List<Account> bankAccount;
         private int customerID;
         public string? FirstName { get; set; }
@@ -16,16 +18,13 @@ namespace BankApplication
         public string? Password { get; set; }
         public int CustomerID
         {
-            get { return CustomerID; }
+            get { return customerID; }
 
             set
             {
-                Random RNG = new Random();
-
                 // Generates a Account number
                 value = RNG.Next(100000, 999999);
-                CustomerID = value;
-
+                customerID = value;
                 // Check if the Account number does not already exist
             }
         }

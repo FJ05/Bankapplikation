@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "apT2pOwaIyIsJDs0Xjye6bsBonZMPWusslr85Ai6VzlYFLZR54IOAP/njzAtJzOn74hiB2Zt9I8k0kdDtxRUBA==",
+  "dgSpecHash": "juIzzL9b9CxFC9QV2SJHhmkLcWFxzVorOFdQupd5j4SJUhS/W2Y11JJveIkmAr5m6L7WELEyEMfIexQBZuHlHA==",
   "success": true,
   "projectFilePath": "C:\\Users\\filip.jansson\\github\\Bankapplikation\\BankApplication\\BankApplication.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\filip.jansson\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

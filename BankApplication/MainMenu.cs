@@ -12,7 +12,8 @@ namespace BankApplication
         public MainMenu()
         {
             Console.WriteLine("1. Create a new account\n" +
-                "2. Log into an existing account");
+                "2. Log into an existing account\n" +
+                "3. Browse all accounts");
             int choise = 0;
             bool userRightChoise = false;
             while (userRightChoise)
@@ -23,6 +24,8 @@ namespace BankApplication
                     string? menuChoise = Console.ReadLine();
                     success = int.TryParse(menuChoise, out int number);
                     choise = number;
+                    if (number == 3)
+                        userRightChoise = true;
                     if (number == 2)
                         userRightChoise = true;
                     if (number == 1)
@@ -34,12 +37,17 @@ namespace BankApplication
             if (choise == 1)
             {
                 // Create a new Account
-                AccCreation ac = new();
+                AccCreation.AccCreate();
             }
             else if (choise == 2)
             {
                 // Login
 
+            }
+            else if (choise == 3)
+            {
+                // Browse all accounts
+                Loader.Load();
             }
         }
     }

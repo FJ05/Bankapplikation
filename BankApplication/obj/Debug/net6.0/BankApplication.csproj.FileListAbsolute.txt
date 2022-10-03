@@ -28,3 +28,5 @@ C:\Users\filip.jansson\github\Bankapplikation\BankApplication\bin\Debug\net6.0\B
 C:\Users\filip.jansson\github\Bankapplikation\BankApplication\bin\Debug\net6.0\BankApplication.pdb
 C:\Users\filip.jansson\github\Bankapplikation\BankApplication\obj\Debug\net6.0\BankApplication.genruntimeconfig.cache
 C:\Users\filip.jansson\github\Bankapplikation\BankApplication\obj\Debug\net6.0\ref\BankApplication.dll
+C:\Users\filip.jansson\github\Bankapplikation\BankApplication\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\filip.jansson\github\Bankapplikation\BankApplication\obj\Debug\net6.0\BankApplication.csproj.CopyComplete
