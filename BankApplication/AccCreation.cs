@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
@@ -18,7 +19,7 @@ namespace BankApplication
         {
             Console.WriteLine("Enter your first name");
             string? firstName = Console.ReadLine();
-            // fail check for first name
+            // Fail check for first name
             List<char> firstname = new List<char>();
             List<char> newFirstname = new List<char>();
             firstname.AddRange(firstName);
@@ -66,7 +67,9 @@ namespace BankApplication
                 sSN = Console.ReadLine();
                 List<char> SSN = new List<char>();
                 int lenght = 0;
-                foreach(char number in SSN)
+                bool errorFound = false;
+
+                foreach(char number in sSN)
                 {
                     switch (number)
                     {
@@ -81,23 +84,30 @@ namespace BankApplication
                         case '8':
                         case '9':
                             lenght++;
-                            ValidSSN = true;
                             // stuff i am stuff
                             break;
                         default:
                             Console.WriteLine("Syntax error: input must contain only numbers");
-                            ValidSSN = false;
+                            errorFound = true;
                             break;
-
                     }
+                }
+                if (errorFound)
+                {
+                    ValidSSN = false;
+                }
+                else
+                {
+                    ValidSSN = true;
                 }
                 if (lenght != 10)
                 {
                     Console.WriteLine("Syntax error: SSN must be written in this format: YYMMDDXXXX");
+                    Console.WriteLine(lenght);
                     ValidSSN = false;
                 }
             }
-            while(ValidSSN);
+            while(!ValidSSN);
 
             Console.WriteLine("enter a password");
             string? password = Console.ReadLine();
@@ -129,6 +139,10 @@ namespace BankApplication
                 sw.WriteLine(output);
             }
             // https://www.newtonsoft.com/json/help/html/SerializingJSON.htm document for newtonsoft
+
+            Console.WriteLine("Press enter to return to the main menu...");
+            Console.ReadLine();
+            MainMenu.Menu();
         }
     }
 }

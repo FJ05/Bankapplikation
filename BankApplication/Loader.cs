@@ -14,21 +14,26 @@ namespace BankApplication
             string fileName = "BankDataBase.json";
             string path = Path.Combine(Environment.CurrentDirectory, @"Properties\", fileName);
 
-            // will list all accounts
+            // Lists all saved accounts
             string json = File.ReadAllText(path);
             var accList = JsonConvert.DeserializeObject<List<Customer>>(json);
             foreach(var acc in accList)
             {
-                Console.WriteLine($"Name: {acc.FirstName}\n" +
+                Graphics.Bar();
+                Console.WriteLine($"\nName: {acc.FirstName}\n" +
                     $"Last name: {acc.LastName}\n" +
                     $"CustomerID: {acc.CustomerID}\n" +
                     $"Password: {acc.Password}\n");
                 foreach(var bk in acc.bankAccount)
                 {
                     Console.WriteLine($"Bank Account Number: {bk.AcNum}\n" +
-                        $"Bank Account Balance: {bk.AcBalance}");
+                    $"Bank Account Balance: {bk.AcBalance}\n");
                 }
             }
+            Graphics.Bar();
+            Console.WriteLine("Press enter to return to the main menu...");
+            Console.ReadLine();
+            MainMenu.Menu();
         }
     }
 }

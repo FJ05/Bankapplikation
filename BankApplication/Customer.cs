@@ -5,6 +5,8 @@ using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using BankApplication;
+using Newtonsoft.Json;
+
 namespace BankApplication
 {
     class Customer
@@ -22,10 +24,10 @@ namespace BankApplication
 
             set
             {
-                // Generates a Account number
+                // Generates a random customerID number for the user
                 value = RNG.Next(100000, 999999);
                 customerID = value;
-                // Check if the Account number does not already exist
+                // Check if the ID number already exists
             }
         }
         public Customer(string? firstName, string? lastName, string? sSN, string? password)

@@ -3,56 +3,34 @@
     "bankAccount": [
       {
         "AcBalance": 0,
-        "AcNum": 228700
-      }
-    ],
-    "FirstName": "Test2",
-    "LastName": "Test3",
-    "SSN": "1122334444",
-    "Password": "test",
-    "CustomerID": 523943
-  },
-  {
-    "bankAccount": [
-      {
-        "AcBalance": 0,
-        "AcNum": 829805
+        "AcNum": 817891
       },
       {
         "AcBalance": 0,
-        "AcNum": 981457
+        "AcNum": 300265
       }
     ],
-    "FirstName": "Adawm",
-    "LastName": "Jdjdks",
-    "SSN": "8611171234",
-    "Password": "secretpassword",
-    "CustomerID": 815371
+    "FirstName": "Daniel",
+    "LastName": "Dickensson",
+    "SSN": "0111224444",
+    "Password": "test",
+    "CustomerID": 306571
   },
   {
     "bankAccount": [
       {
         "AcBalance": 0,
-        "AcNum": 488136
-      }
-    ],
-    "FirstName": "John",
-    "LastName": "Doe",
-    "SSN": "1122334444",
-    "Password": "test",
-    "CustomerID": 784501
-  },
-  {
-    "bankAccount": [
+        "AcNum": 424354
+      },
       {
         "AcBalance": 0,
-        "AcNum": 923254
+        "AcNum": 992491
       }
     ],
-    "FirstName": "Test",
-    "LastName": "Test",
-    "SSN": "test",
-    "Password": "test",
-    "CustomerID": 497664
+    "FirstName": "Filip",
+    "LastName": "Jansson",
+    "SSN": "0511160000",
+    "Password": "password",
+    "CustomerID": 940778
   }
 ]
