@@ -91,22 +91,11 @@ namespace BankApplication
 
                     }
                 }
-                if (lenght > 10)
+                if (lenght != 10)
                 {
                     Console.WriteLine("Syntax error: SSN must be written in this format: YYMMDDXXXX");
                     ValidSSN = false;
                 }
-                else if (lenght < 10)
-                {
-                    Console.WriteLine("Syntax error SSN must be written in this format: YYMMDDXXXX");
-                    ValidSSN = false;
-                }
-                else if (lenght == 11)
-                {
-                    Console.WriteLine("Syntax error SSN must be written in this format: YYMMDDXXXX");
-                    ValidSSN = false;
-                }
-
             }
             while(ValidSSN);
 
