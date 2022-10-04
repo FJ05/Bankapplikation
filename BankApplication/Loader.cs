@@ -15,8 +15,20 @@ namespace BankApplication
             string path = Path.Combine(Environment.CurrentDirectory, @"Properties\", fileName);
 
             // will list all accounts
-            string jsonSave = File.ReadAllText(path);
-            Customer cust = JsonConvert.DeserializeObject<Customer>(jsonSave);
+            string json = File.ReadAllText(path);
+            var accList = JsonConvert.DeserializeObject<List<Customer>>(json);
+            foreach(var acc in accList)
+            {
+                Console.WriteLine($"Name: {acc.FirstName}\n" +
+                    $"Last name: {acc.LastName}\n" +
+                    $"CustomerID: {acc.CustomerID}\n" +
+                    $"Password: {acc.Password}\n");
+                foreach(var bk in acc.bankAccount)
+                {
+                    Console.WriteLine($"Bank Account Number: {bk.AcNum}\n" +
+                        $"Bank Account Balance: {bk.AcBalance}");
+                }
+            }
         }
     }
 }

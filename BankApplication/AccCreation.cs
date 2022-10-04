@@ -130,8 +130,7 @@ namespace BankApplication
 
             foreach(var acc in accList)
             {
-                Customer custom = new(acc.FirstName, acc.LastName, acc.SSN, acc.Password);
-                custs.Add(custom);
+                custs.Add(acc);
             }
 
             File.WriteAllText(path, string.Empty);
@@ -142,6 +141,5 @@ namespace BankApplication
             }
             // https://www.newtonsoft.com/json/help/html/SerializingJSON.htm document for newtonsoft
         }
-
     }
 }

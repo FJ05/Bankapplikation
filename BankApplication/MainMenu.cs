@@ -9,14 +9,14 @@ namespace BankApplication
 {
     class MainMenu
     {
-        public MainMenu()
+        public static void Menu()
         {
             Console.WriteLine("1. Create a new account\n" +
                 "2. Log into an existing account\n" +
                 "3. Browse all accounts");
             int choise = 0;
             bool userRightChoise = false;
-            while (userRightChoise)
+            while (!userRightChoise)
             {
                 bool success = false;
                 do
@@ -41,7 +41,7 @@ namespace BankApplication
             }
             else if (choise == 2)
             {
-                // Login
+                // Manage account
 
             }
             else if (choise == 3)
