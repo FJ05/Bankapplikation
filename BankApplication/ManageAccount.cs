@@ -59,12 +59,9 @@ namespace BankApplication
                             // prevents duplicating in json folder
                             foreach (var accs in accList)
                             {
-                                if (accs.SSN != ssn)
+                                if (accs.SSN != ssn && accs.Password != password)
                                 {
-                                    if (accs.Password != password)
-                                    {
-                                        saveCusts.Add(accs);
-                                    }
+                                    saveCusts.Add(accs);
                                 }
                             }
                             File.WriteAllText(path, string.Empty); // delets account data and rewrites
@@ -107,12 +104,9 @@ namespace BankApplication
                                             // prevents duplicating in json folder
                                             foreach(var account in accList)
                                             {
-                                                if (account.SSN != ssn)
+                                                if (account.SSN != ssn && account.Password != password)
                                                 {
-                                                    if (account.Password != password)
-                                                    {
-                                                        saveCusts.Add(account);
-                                                    }
+                                                    saveCusts.Add(account);
                                                 }
                                             }
                                             File.WriteAllText(path, string.Empty); // delets account data and rewrites
@@ -155,12 +149,9 @@ namespace BankApplication
                                                 // prevents duplicating in json folder
                                                 foreach (var account in accList)
                                                 {
-                                                    if (account.SSN != ssn)
+                                                    if (account.SSN != ssn && account.Password != password)
                                                     {
-                                                        if (account.Password != password)
-                                                        {
-                                                            saveCusts.Add(account);
-                                                        }
+                                                        saveCusts.Add(account);
                                                     }
                                                 }
                                                 File.WriteAllText(path, string.Empty); // delets account data and rewrites
@@ -202,11 +193,17 @@ namespace BankApplication
                     else
                     {
                         Console.WriteLine("You've entered the wrong password");
+                        Console.WriteLine("Press enter to return to the main menu...");
+                        Console.ReadLine();
+                        MainMenu.Menu();
                     }
                 }
                 else
                 {
                     Console.WriteLine("SSN was not found in our database");
+                    Console.WriteLine("Press enter to return to the main menu...");
+                    Console.ReadLine();
+                    MainMenu.Menu();
                 }
             }
         }

@@ -24,9 +24,29 @@ namespace BankApplication
 
             set
             {
+                Console.Clear();
+                string fileName = "BankDataBase.json";
+                string path = Path.Combine(Environment.CurrentDirectory, @"Properties\", fileName);
+                List<Customer> custs = new();
+                string json = File.ReadAllText(path);
+                var accList = JsonConvert.DeserializeObject<List<Customer>>(json);
+
+                bool ssnIsUniqe = true;
+                do
+                {
+                    ssnIsUniqe = true;
+                    value = RNG.Next(100000, 999999);
+                    customerID = value;
+
+                    foreach(var acc in accList)
+                    {
+                        if (acc.customerID == value)
+                        {
+                            ssnIsUniqe = false;
+                        }
+                    }
+                } while (!ssnIsUniqe);
                 // Generates a random customerID number for the user
-                value = RNG.Next(100000, 999999);
-                customerID = value;
                 // Check if the ID number already exists
             }
         }

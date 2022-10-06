@@ -2,35 +2,65 @@
   {
     "bankAccount": [
       {
+        "AcBalance": 300,
+        "AcNum": 317419
+      }
+    ],
+    "FirstName": "Elsa",
+    "LastName": "N",
+    "SSN": "0512074444",
+    "Password": "apple",
+    "CustomerID": 179774
+  },
+  {
+    "bankAccount": [
+      {
         "AcBalance": 0,
-        "AcNum": 817891
+        "AcNum": 531867
       },
       {
         "AcBalance": 0,
-        "AcNum": 300265
+        "AcNum": 371516
+      }
+    ],
+    "FirstName": "Filip",
+    "LastName": "Johansson",
+    "SSN": "0511150000",
+    "Password": "password",
+    "CustomerID": 229036
+  },
+  {
+    "bankAccount": [
+      {
+        "AcBalance": 1337,
+        "AcNum": 268035
+      },
+      {
+        "AcBalance": 0,
+        "AcNum": 528248
+      }
+    ],
+    "FirstName": "Cock",
+    "LastName": "Sucker",
+    "SSN": "6913376969",
+    "Password": "i<3penis",
+    "CustomerID": 103061
+  },
+  {
+    "bankAccount": [
+      {
+        "AcBalance": 0,
+        "AcNum": 599678
+      },
+      {
+        "AcBalance": 0,
+        "AcNum": 907471
       }
     ],
     "FirstName": "Daniel",
     "LastName": "Dickensson",
     "SSN": "0111224444",
     "Password": "test",
-    "CustomerID": 306571
-  },
-  {
-    "bankAccount": [
-      {
-        "AcBalance": 0,
-        "AcNum": 424354
-      },
-      {
-        "AcBalance": 0,
-        "AcNum": 992491
-      }
-    ],
-    "FirstName": "Filip",
-    "LastName": "Jansson",
-    "SSN": "0511160000",
-    "Password": "password",
-    "CustomerID": 940778
+    "CustomerID": 947786
   }
 ]

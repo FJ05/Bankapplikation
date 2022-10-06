@@ -63,7 +63,7 @@ namespace BankApplication
             string? sSN;
             do
             {
-                Console.WriteLine("Enter your social security number; ex: YYMMDDXXXX");
+                Console.WriteLine("Enter your social security number; ex: YYMMDDXXXX.\nOnly numbers are accepted");
                 sSN = Console.ReadLine();
                 List<char> SSN = new List<char>();
                 int lenght = 0;
@@ -87,7 +87,6 @@ namespace BankApplication
                             // stuff i am stuff
                             break;
                         default:
-                            Console.WriteLine("Syntax error: input must contain only numbers");
                             errorFound = true;
                             break;
                     }
@@ -103,7 +102,6 @@ namespace BankApplication
                 if (lenght != 10)
                 {
                     Console.WriteLine("Syntax error: SSN must be written in this format: YYMMDDXXXX");
-                    Console.WriteLine(lenght);
                     ValidSSN = false;
                 }
             }
