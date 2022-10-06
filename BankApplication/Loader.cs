@@ -11,6 +11,7 @@ namespace BankApplication
     {
         public static void Load()
         {
+            Console.Clear();
             string fileName = "BankDataBase.json";
             string path = Path.Combine(Environment.CurrentDirectory, @"Properties\", fileName);
 

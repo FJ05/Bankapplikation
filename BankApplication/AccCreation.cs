@@ -17,6 +17,7 @@ namespace BankApplication
     {
         public static void AccCreate()
         {
+            Console.Clear();
             Console.WriteLine("Enter your first name");
             string? firstName = Console.ReadLine();
             // Fail check for first name
