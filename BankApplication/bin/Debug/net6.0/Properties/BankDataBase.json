@@ -2,65 +2,95 @@
   {
     "bankAccount": [
       {
+        "AcBalance": 1000000,
+        "AcNum": 784072
+      }
+    ],
+    "FirstName": "Anton",
+    "LastName": "Gråberg",
+    "SSN": "0412010000",
+    "Password": "dinmammaluktarkiss",
+    "CustomerID": 264944
+  },
+  {
+    "bankAccount": [
+      {
+        "AcBalance": 0,
+        "AcNum": 590725
+      },
+      {
+        "AcBalance": 0,
+        "AcNum": 113437
+      }
+    ],
+    "FirstName": "Test1",
+    "LastName": "Test1",
+    "SSN": "1122334444",
+    "Password": "TEST1",
+    "CustomerID": 373278
+  },
+  {
+    "bankAccount": [
+      {
         "AcBalance": 300,
-        "AcNum": 317419
+        "AcNum": 268451
       }
     ],
     "FirstName": "Elsa",
     "LastName": "N",
     "SSN": "0512074444",
     "Password": "apple",
-    "CustomerID": 179774
+    "CustomerID": 992160
   },
   {
     "bankAccount": [
       {
         "AcBalance": 0,
-        "AcNum": 531867
+        "AcNum": 797255
       },
       {
         "AcBalance": 0,
-        "AcNum": 371516
+        "AcNum": 855653
       }
     ],
     "FirstName": "Filip",
     "LastName": "Johansson",
     "SSN": "0511150000",
     "Password": "password",
-    "CustomerID": 229036
+    "CustomerID": 272277
   },
   {
     "bankAccount": [
       {
         "AcBalance": 1337,
-        "AcNum": 268035
+        "AcNum": 532132
       },
       {
         "AcBalance": 0,
-        "AcNum": 528248
+        "AcNum": 428241
       }
     ],
     "FirstName": "Cock",
     "LastName": "Sucker",
     "SSN": "6913376969",
     "Password": "i<3penis",
-    "CustomerID": 103061
+    "CustomerID": 131861
   },
   {
     "bankAccount": [
       {
         "AcBalance": 0,
-        "AcNum": 599678
+        "AcNum": 198348
       },
       {
         "AcBalance": 0,
-        "AcNum": 907471
+        "AcNum": 899707
       }
     ],
     "FirstName": "Daniel",
     "LastName": "Dickensson",
     "SSN": "0111224444",
     "Password": "test",
-    "CustomerID": 947786
+    "CustomerID": 251447
   }
 ]

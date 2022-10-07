@@ -21,9 +21,11 @@ namespace BankApplication
             string? choise;
             while (true)
             {
+                Graphics.Bar();
                 Console.WriteLine("1. To search for first name");
                 Console.WriteLine("2. To search for last name");
                 Console.WriteLine("3. To seach for ssn");
+                Graphics.Bar();
 
                 choise = Console.ReadLine();
                 if (choise == "1" || choise == "2" || choise == "3")
@@ -36,6 +38,7 @@ namespace BankApplication
             Console.Clear();
             if (choise == "1")
             {
+                Graphics.Bar();
                 Console.WriteLine("Enter a first name");
                 string? searchKeyWord = Console.ReadLine();
                 int searchResults = 0;
@@ -45,6 +48,7 @@ namespace BankApplication
                     if (cust.FirstName.ToLower() == searchKeyWord.ToLower())
                     {
                         searchResults++;
+                        Graphics.Bar();
                         Console.WriteLine($"First name: {cust.FirstName}\n" +
                             $"Last name: {cust.LastName}\n" +
                             $"Ssn: {cust.SSN}\n");
@@ -60,6 +64,7 @@ namespace BankApplication
             }
             if (choise == "2")
             {
+                Graphics.Bar();
                 Console.WriteLine("Enter a last name");
                 string? searchKeyWord = Console.ReadLine();
                 int searchResults = 0;
@@ -69,6 +74,7 @@ namespace BankApplication
                     if (cust.LastName.ToLower() == searchKeyWord.ToLower())
                     {
                         searchResults++;
+                        Graphics.Bar();
                         Console.WriteLine($"First name: {cust.FirstName}\n" +
                             $"Last name: {cust.LastName}\n" +
                             $"Sss: {cust.SSN}\n");
@@ -84,6 +90,7 @@ namespace BankApplication
             }
             if (choise == "3")
             {
+                Graphics.Bar();
                 Console.WriteLine("Enter a ssn");
                 string? searchKeyWord = Console.ReadLine();
                 int searchResults = 0;
@@ -93,6 +100,7 @@ namespace BankApplication
                     if (cust.SSN.ToLower() == searchKeyWord.ToLower())
                     {
                         searchResults++;
+                        Graphics.Bar();
                         Console.WriteLine($"First name: {cust.FirstName}\n" +
                             $"Last name: {cust.LastName}\n" +
                             $"Ssn: {cust.SSN}\n");
