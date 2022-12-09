@@ -1,0 +1,17 @@
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\bin\Debug\net6.0\Resebolag.exe
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\bin\Debug\net6.0\Resebolag.deps.json
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\bin\Debug\net6.0\Resebolag.runtimeconfig.json
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\bin\Debug\net6.0\Resebolag.dll
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\bin\Debug\net6.0\Resebolag.pdb
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.csproj.AssemblyReference.cache
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.AssemblyInfoInputs.cache
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.AssemblyInfo.cs
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.csproj.CoreCompileInputs.cache
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.dll
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\refint\Resebolag.dll
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.pdb
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.genruntimeconfig.cache
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\ref\Resebolag.dll
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\filip.jansson\github\Bankapplikation\Resebolag\obj\Debug\net6.0\Resebolag.csproj.CopyComplete

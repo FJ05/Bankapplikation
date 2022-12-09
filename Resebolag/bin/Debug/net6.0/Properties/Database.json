@@ -1,0 +1,18 @@
+[
+  {
+    "$type": "Resebolag.Hotel, Resebolag",
+    "CompanyName": "21",
+    "City": "",
+    "Rating": 423.0,
+    "TotalRooms": 432,
+    "Roomtypes": [
+      {
+        "$type": "Resebolag.Room, Resebolag",
+        "RoomType": "432",
+        "AmountOfRoomType": 432,
+        "PricePerNight": 432,
+        "HasRoomService": false
+      }
+    ]
+  }
+]

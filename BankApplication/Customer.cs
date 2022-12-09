@@ -9,15 +9,29 @@ using Newtonsoft.Json;
 
 namespace BankApplication
 {
+    /// <summary>
+    ///     Propertirs for customer and includes informative information about the customer.
+    ///     The customer class also makes it possible to store multible bank accounts in this object.
+    /// </summary>
     class Customer
     {
         Random RNG = new Random();
+        /// <value>
+        ///     List to host all the users bank accounts in.
+        /// </value>
         public List<Account> bankAccount;
+        /// <value>
+        ///     The customerID lets us keep track of the of the users by their randomly generated number also called seed
+        /// </value>
         private int customerID;
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public string? SSN { get; set; }
         public string? Password { get; set; }
+
+        /// <summary>
+        ///     Randomy generetes the CustomerID
+        /// </summary>
         public int CustomerID
         {
             get { return customerID; }
@@ -35,7 +49,7 @@ namespace BankApplication
             LastName = lastName;
             SSN = sSN;
             CustomerID = customerID;        
-            bankAccount = new List<Account>();
+            bankAccount = new List<Account>(); 
             Password = password;
         }
     }

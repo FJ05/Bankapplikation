@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ÖppetHus/1.0.0": {
+        "runtime": {
+          "ÖppetHus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ÖppetHus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

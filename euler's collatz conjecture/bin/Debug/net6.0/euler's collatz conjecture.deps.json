@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "euler's collatz conjecture/1.0.0": {
+        "runtime": {
+          "euler's collatz conjecture.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "euler's collatz conjecture/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -2,6 +2,11 @@
 using System;
 namespace BankApplication
 {
+    /// <summary>
+    ///     Class: TESY21
+    ///     Name: Filip Jansson
+    ///     Description: A simple program that lets the user host bank accounts and save them to a database while being able to view all the information about the users.
+    /// </summary>
     class Program
     {
         static void Main(string[] args)

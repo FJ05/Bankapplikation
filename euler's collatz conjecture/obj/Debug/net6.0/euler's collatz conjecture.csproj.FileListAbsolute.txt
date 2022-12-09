@@ -1,0 +1,15 @@
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\bin\Debug\net6.0\euler's collatz conjecture.exe
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\bin\Debug\net6.0\euler's collatz conjecture.deps.json
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\bin\Debug\net6.0\euler's collatz conjecture.runtimeconfig.json
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\bin\Debug\net6.0\euler's collatz conjecture.dll
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\bin\Debug\net6.0\euler's collatz conjecture.pdb
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\euler's collatz conjecture.csproj.AssemblyReference.cache
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\euler's collatz conjecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\euler's collatz conjecture.AssemblyInfoInputs.cache
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\euler's collatz conjecture.AssemblyInfo.cs
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\euler's collatz conjecture.csproj.CoreCompileInputs.cache
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\euler's collatz conjecture.dll
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\refint\euler's collatz conjecture.dll
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\euler's collatz conjecture.pdb
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\euler's collatz conjecture.genruntimeconfig.cache
+C:\Users\filip.jansson\github\Bankapplikation\euler's collatz conjecture\obj\Debug\net6.0\ref\euler's collatz conjecture.dll

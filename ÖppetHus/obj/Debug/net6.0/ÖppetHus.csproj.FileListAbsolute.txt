@@ -1,0 +1,15 @@
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\bin\Debug\net6.0\ÖppetHus.exe
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\bin\Debug\net6.0\ÖppetHus.deps.json
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\bin\Debug\net6.0\ÖppetHus.runtimeconfig.json
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\bin\Debug\net6.0\ÖppetHus.dll
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\bin\Debug\net6.0\ÖppetHus.pdb
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ÖppetHus.csproj.AssemblyReference.cache
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ÖppetHus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ÖppetHus.AssemblyInfoInputs.cache
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ÖppetHus.AssemblyInfo.cs
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ÖppetHus.csproj.CoreCompileInputs.cache
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ÖppetHus.dll
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\refint\ÖppetHus.dll
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ÖppetHus.pdb
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ÖppetHus.genruntimeconfig.cache
+C:\Users\filip.jansson\github\Bankapplikation\ÖppetHus\obj\Debug\net6.0\ref\ÖppetHus.dll

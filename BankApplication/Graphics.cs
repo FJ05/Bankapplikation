@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BankApplication
 {
+    /// <summary>
+    ///     Basic visuals for the program to make the ui better
+    /// </summary>
     class Graphics
     {
         public static void Bar()        // Creates a "bar" of the color magenta and switches the main text colour back to darkcyan

@@ -2,95 +2,108 @@
   {
     "bankAccount": [
       {
+        "AcBalance": 0,
+        "AcNum": 724859
+      },
+      {
+        "AcBalance": 0,
+        "AcNum": 360373
+      }
+    ],
+    "FirstName": "Fredrik",
+    "LastName": "Jansson",
+    "SSN": "0511150000",
+    "Password": "password",
+    "CustomerID": 175459
+  },
+  {
+    "bankAccount": [
+      {
+        "AcBalance": 1000,
+        "AcNum": 632710
+      }
+    ],
+    "FirstName": "Test2",
+    "LastName": "Test2",
+    "SSN": "1122335555",
+    "Password": "test2",
+    "CustomerID": 972695
+  },
+  {
+    "bankAccount": [
+      {
         "AcBalance": 1000000,
-        "AcNum": 784072
+        "AcNum": 796034
       }
     ],
     "FirstName": "Anton",
     "LastName": "Gråberg",
     "SSN": "0412010000",
-    "Password": "dinmammaluktarkiss",
-    "CustomerID": 264944
+    "Password": "dinmammaluktar",
+    "CustomerID": 864714
   },
   {
     "bankAccount": [
       {
         "AcBalance": 0,
-        "AcNum": 590725
+        "AcNum": 747803
       },
       {
         "AcBalance": 0,
-        "AcNum": 113437
+        "AcNum": 223440
       }
     ],
     "FirstName": "Test1",
     "LastName": "Test1",
     "SSN": "1122334444",
     "Password": "TEST1",
-    "CustomerID": 373278
+    "CustomerID": 105286
   },
   {
     "bankAccount": [
       {
         "AcBalance": 300,
-        "AcNum": 268451
+        "AcNum": 165798
       }
     ],
     "FirstName": "Elsa",
     "LastName": "N",
     "SSN": "0512074444",
     "Password": "apple",
-    "CustomerID": 992160
-  },
-  {
-    "bankAccount": [
-      {
-        "AcBalance": 0,
-        "AcNum": 797255
-      },
-      {
-        "AcBalance": 0,
-        "AcNum": 855653
-      }
-    ],
-    "FirstName": "Filip",
-    "LastName": "Johansson",
-    "SSN": "0511150000",
-    "Password": "password",
-    "CustomerID": 272277
+    "CustomerID": 583584
   },
   {
     "bankAccount": [
       {
         "AcBalance": 1337,
-        "AcNum": 532132
+        "AcNum": 499045
       },
       {
         "AcBalance": 0,
-        "AcNum": 428241
+        "AcNum": 787653
       }
     ],
-    "FirstName": "Cock",
+    "FirstName": "lolipop",
     "LastName": "Sucker",
     "SSN": "6913376969",
     "Password": "i<3penis",
-    "CustomerID": 131861
+    "CustomerID": 686050
   },
   {
     "bankAccount": [
       {
         "AcBalance": 0,
-        "AcNum": 198348
+        "AcNum": 237174
       },
       {
         "AcBalance": 0,
-        "AcNum": 899707
+        "AcNum": 307364
       }
     ],
     "FirstName": "Daniel",
     "LastName": "Dickensson",
     "SSN": "0111224444",
     "Password": "test",
-    "CustomerID": 251447
+    "CustomerID": 694588
   }
 ]

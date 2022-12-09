@@ -1,0 +1,15 @@
+C:\Users\filip.jansson\github\Bankapplikation\school\bin\Debug\net6.0\school.exe
+C:\Users\filip.jansson\github\Bankapplikation\school\bin\Debug\net6.0\school.deps.json
+C:\Users\filip.jansson\github\Bankapplikation\school\bin\Debug\net6.0\school.runtimeconfig.json
+C:\Users\filip.jansson\github\Bankapplikation\school\bin\Debug\net6.0\school.dll
+C:\Users\filip.jansson\github\Bankapplikation\school\bin\Debug\net6.0\school.pdb
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\school.csproj.AssemblyReference.cache
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\school.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\school.AssemblyInfoInputs.cache
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\school.AssemblyInfo.cs
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\school.csproj.CoreCompileInputs.cache
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\school.dll
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\refint\school.dll
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\school.pdb
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\school.genruntimeconfig.cache
+C:\Users\filip.jansson\github\Bankapplikation\school\obj\Debug\net6.0\ref\school.dll

@@ -112,7 +112,10 @@ namespace BankApplication
                     }
                     tiedBankAccounts = 0;
                 }
+                Graphics.Bar();
                 Console.WriteLine($"{searchResults}: results was found");
+                Graphics.Bar();
+
             }
             Console.WriteLine("Press enter to return to the main menu...");
             Console.ReadLine();
